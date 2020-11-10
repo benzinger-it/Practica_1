@@ -36,7 +36,13 @@ En esta sección los requisitos son los siguientes:
     1. Debes probar que el proyecto haya sido correctamente descargado.-
     1. Utilizar NPM para instalar las librerias pendientes
     1. Ejecuta "ng serve" para ver en el browser 
-1. Crear un Branch y realizar cambios.
+1. Crear un Branch y realizar los siguientes cambios en el codigo.
     1. Utilizando el CLI de angular debes:
         1. Crear un Nuevo Modulo y Componente llamado "test".
-        2. Crear un Servicio dentro del Modulo
+        1. Crear un Servicio dentro del Modulo
+1. Instalar "Angular Material" en el proyecto
+https://material.angular.io/
+    1. Instalar el modulo Angular Material button
+
+    1. Instalar Angular Material datepicker
+    1. Instalar Angular Material input
