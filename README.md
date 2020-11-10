@@ -25,3 +25,18 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## Benzinger -IT
+
+Este GITHUB tiene como objetivo crear practica y evaluar el nivel de conocimiento existente entre el individuo y el entorno de desarrollo remoto.
+En esta sección los requisitos son los siguientes:
+
+1. Clonar el proyecto.
+    1. Debes probar que el proyecto haya sido correctamente descargado.-
+    1. Utilizar NPM para instalar las librerias pendientes
+    1. Ejecuta "ng serve" para ver en el browser 
+1. Crear un Branch y realizar cambios.
+    1. Utilizando el CLI de angular debes:
+        1. Crear un Nuevo Modulo y Componente llamado "test".
+        2. Crear un Servicio dentro del Modulo
