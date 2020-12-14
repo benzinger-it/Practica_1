@@ -1,3 +1,10 @@
+<mat-toolbar color="secondary">
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>Benzinger</span>
+  <span class="example-spacer"></span>
+</mat-toolbar>
 <div class="container">
   <router-outlet></router-outlet>
   {{ "Grüße" | translate }}
@@ -10,3 +17,15 @@
     </option>
   </select>
 </label>
+
+<p></p>
+
+<mat-form-field floatlabel='auto' hideRequiredMarker appearence='fill'>
+  <mat-label>Nombre</mat-label>
+  <input matInput name="nombre" id="nombre">
+  </mat-form-field>
+  <mat-form-field floatlabel='auto' hideRequiredMarker appearence='fill'>
+    <mat-label>Edad</mat-label>
+    <input matInput age="edad" id="edad">
+    </mat-form-field>
+    
