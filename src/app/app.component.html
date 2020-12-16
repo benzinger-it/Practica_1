@@ -18,14 +18,20 @@
   </select>
 </label>
 
-<p></p>
-
-<mat-form-field floatlabel='auto' hideRequiredMarker appearence='fill'>
-  <mat-label>Nombre</mat-label>
-  <input matInput name="nombre" id="nombre">
-  </mat-form-field>
-  <mat-form-field floatlabel='auto' hideRequiredMarker appearence='fill'>
-    <mat-label>Edad</mat-label>
-    <input matInput age="edad" id="edad">
+<div class="titel">
+  <div class="row">
+    <div class="col-sn-8">
+    <mat-form-field appearance="outline">
+      <mat-label>Nombre</mat-label>
+      <input matInput color="secondary" name="nombre" id="nombre" [(ngModel)]="datos.nombre">
+      
     </mat-form-field>
-    
+    <div class="titel">
+      <div class="row">
+        <div class="col-sn-8">
+        <mat-form-field appearance="outline">
+          <mat-label>Edad</mat-label>
+          <input matInput color="secondary" age="edad" id="edad" [(ngModel)]="datos.edad">
+          
+        </mat-form-field>
+    <button (click)="guardar()">Guardar</button>

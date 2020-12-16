@@ -1,4 +1,4 @@
-import { Component, OnInit} from '@angular/core';
+import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -20,4 +20,21 @@ export class AppComponent  {
   changeLang(lang: string){
     this.translate.use(lang);
   }
+  
+  datos = {
+    'nombre': '',
+    'edad': null
+  }
+  guardar(){
+    localStorage.setItem('datos', JSON.stringify(this.datos))
+  }
+  llamar(){
+    
+    var item = localStorage.getItem('datos');
+    this.datos = JSON.parse(item)
+  }
 }
+
+ 
+  
+  
